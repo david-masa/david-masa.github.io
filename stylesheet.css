@@ -1,9 +1,14 @@
 body{
-  background-color: yellow;
-  font-size: 14px;
-  color: #fff;
-  margin: 0 auto;
-}
+    height: 600px;
+    background-image: url(book-mpb.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+  }
 h1,h2,h3,h4,h5,h6,p{
   padding: 10px 0 ;
   margin: 0;
@@ -24,17 +29,7 @@ h1{
   font-size: 24px;
   font-weight: bold;
 }
-body{
-  height: 600px;
-  background-image: url(book-mpb.webp);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-}
+
 h1,h2,h3,h4,h5,h6,p{
   padding: 10px 0 ;
   margin: 0;
